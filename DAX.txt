@@ -1,0 +1,7 @@
+Table.TransformColumnTypes(Fonte,{{"SKDATA#(lf)", Int64.Type}, {"DATA#(lf)", type date}, {"DATA2", type date},
+ {"ANO#(lf)ANO", Int64.Type}, {"MES", Int64.Type}, {"DIA", Int64.Type}, {"NUMERO_DIA_SEMANA", Int64.Type}, {"DIA_SEMANA", type text},
+ {"DIA_ANO", Int64.Type}, {"ANO_BISSEXTO", type text}, {"DIA_UTIL", type text},
+ {"FINAL_SEMANA", type text}, {"FERIADO", type text}, {"NOME_FERIADO", type text}, {"NOME_MES", type text}, {"NOME_MES_ABREV", type text},
+ {"BIMESTRE", Int64.Type}, {"TRIMESTRE#(lf)", Int64.Type}, {"SEMESTRE#(lf)", Int64.Type}, {"ESTACAO", type text}, {"EVENTO#(lf)", type text},
+ {"ANO_MES#(lf)", Int64.Type}, 
+{"NOME_ANO_MES", type date}})
